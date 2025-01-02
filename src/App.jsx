@@ -3,8 +3,6 @@ import logo from '/images/other/logo.png';
 import Gallery from './components/Gallery';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
-import useIsMobile from './hooks/useIsMobile';
-
 
 function App() {
   const [activeGallery, setActiveGallery] = useState(0)

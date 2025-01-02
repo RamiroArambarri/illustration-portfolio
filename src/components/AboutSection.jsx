@@ -20,7 +20,7 @@ const AboutSection = () => {
                     <a href="https://www.youtube.com/channel/UCwwtu-nl-G_SKWY06ree4rQ" target="_blank"><img
                         src={youtubeIcon} className={aboutSectionStyles.social} alt="Youtube" role='link' aria-label='Ir a https://www.instagram.com/ramiro_arambarri/' /></a>
                 </div>
-                <img src={photo} className={aboutSectionStyles.photo} />
+                <img src={photo} className={aboutSectionStyles.photo} alt="Ramiro Arambarri" />
             </section>
         </>
     )

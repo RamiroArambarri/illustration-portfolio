@@ -13,111 +13,111 @@ export const galleryData = [
             thumnailSize: '150%'
         },
         {
-            src: '/images/digital/telefono.png',
+            src: '/illustration-portfolio/images/digital/telefono.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/digital/tren.png',
+            src: '/illustration-portfolio/images/digital/tren.png',
             thumnailSize: '150%'
         },
         {
-            src: '/images/digital/neko.png',
+            src: '/illustration-portfolio/images/digital/neko.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/digital/lobo.png',
+            src: '/illustration-portfolio/images/digital/lobo.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/digital/sirena.png',
+            src: '/illustration-portfolio/images/digital/sirena.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/digital/quetzal.png',
+            src: '/illustration-portfolio/images/digital/quetzal.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/digital/guardian.png',
+            src: '/illustration-portfolio/images/digital/guardian.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/digital/cthulhu.png',
+            src: '/illustration-portfolio/images/digital/cthulhu.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/digital/paladin.png',
+            src: '/illustration-portfolio/images/digital/paladin.png',
             thumnailSize: '100%'
         },
     ],
     [
         {
-            src: '/images/pixel-art/halloween.png',
+            src: '/illustration-portfolio/images/pixel-art/halloween.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/pixel-art/pandora.png',
+            src: '/illustration-portfolio/images/pixel-art/pandora.png',
             thumnailSize: '175%'
         },
         {
-            src: '/images/pixel-art/bitsonia.png',
+            src: '/illustration-portfolio/images/pixel-art/bitsonia.png',
             thumnailSize: '175%'
         },
         {
-            src: '/images/pixel-art/dragon.jpg',
+            src: '/illustration-portfolio/images/pixel-art/dragon.jpg',
             thumnailSize: '100%'
         },
         {
-            src: '/images/pixel-art/himeji.png',
+            src: '/illustration-portfolio/images/pixel-art/himeji.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/pixel-art/salon.png',
+            src: '/illustration-portfolio/images/pixel-art/salon.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/pixel-art/tetera.png',
+            src: '/illustration-portfolio/images/pixel-art/tetera.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/pixel-art/noctambularia.jpg',
+            src: '/illustration-portfolio/images/pixel-art/noctambularia.jpg',
             thumnailSize: '175%'
         },
     ],
     [
         {
-            src: '/images/sketch/lechuza-sketch.png',
+            src: '/illustration-portfolio/images/sketch/lechuza-sketch.png',
             thumnailSize: '120%'
         },
         {
-            src: '/images/sketch/mouth-sketch.jpg',
+            src: '/illustration-portfolio/images/sketch/mouth-sketch.jpg',
             thumnailSize: '120%'
         },
         {
-            src: '/images/sketch/dragon-sketch.jpg',
+            src: '/illustration-portfolio/images/sketch/dragon-sketch.jpg',
             thumnailSize: '100%'
         },
         {
-            src: '/images/sketch/buho-sketch.png',
+            src: '/illustration-portfolio/images/sketch/buho-sketch.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/sketch/angel-sketch.jpg',
+            src: '/illustration-portfolio/images/sketch/angel-sketch.jpg',
             thumnailSize: '100%'
         },
         {
-            src: '/images/sketch/guardian-sketch.png',
+            src: '/illustration-portfolio/images/sketch/guardian-sketch.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/sketch/landscape-1.jpg',
+            src: '/illustration-portfolio/images/sketch/landscape-1.jpg',
             thumnailSize: '100%'
         },
         {
-            src: '/images/sketch/parque-sketch.png',
+            src: '/illustration-portfolio/images/sketch/parque-sketch.png',
             thumnailSize: '100%'
         },
         {
-            src: '/images/sketch/landscape-2.jpg',
+            src: '/illustration-portfolio/images/sketch/landscape-2.jpg',
             thumnailSize: '100%'
         },
     ]

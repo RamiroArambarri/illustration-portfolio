@@ -1,5 +1,10 @@
 $main-color: rgb(158, 51, 3);
-$title-font: "Cormorant Garamond", serif;
+$title-font: "CormorantGaramond", serif;
+
+@font-face {
+  font-family: CormorantGaramond;
+  src: url('/illustration-portfolio/fonts/CormorantGaramond-SemiBold.ttf') format("truetype");
+}
 
 #root {
   font-family: Tahoma;
