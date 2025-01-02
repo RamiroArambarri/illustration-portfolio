@@ -1,0 +1,214 @@
+$main-color: rgb(158, 51, 3);
+$title-font: "Cormorant Garamond", serif;
+
+#root {
+  font-family: Tahoma;
+  margin: 3em auto 0;
+  position: absolute;
+
+  @media only screen and (max-width: 768px) {
+    margin: 1em auto 0;
+  }
+}
+
+#menu-main-button {
+  display: none;
+
+  @media only screen and (max-width: 768px) {
+    display: block;
+    border: none;
+    background-color: white;
+    width: 100%;
+    padding: .5em;
+    font-family: bahnschrift;
+    font-size: 1em;
+    color: rgb(80, 80, 80);
+  }
+}
+
+
+
+header {
+  font-family: $title-font;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+
+  h1 {
+    font-size: 5em;
+    margin: 0;
+    color: $main-color;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 2em;
+    }
+  }
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+
+  @media only screen and (max-width: 768px) {
+    width: 100px;
+  }
+
+}
+
+.menu {
+  font-family: bahnschrift;
+  font-size: 1.5em;
+  top: 30vh;
+  margin: 0 auto 2em;
+  padding: 0;
+  transition: 0.2s;
+  height: 6em;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1em;
+    overflow: hidden;
+  }
+
+  &-compact {
+    @media only screen and (max-width: 768px) {
+      height: 0;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+    @media only screen and (max-width: 768px) {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: block;
+      text-align: center;
+    }
+  }
+
+  li {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+
+#gallery-section {
+  display: flex;
+
+  @media only screen and (max-width: 768px) {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+.gallery-nav {
+  position: sticky;
+  top: 5em;
+  background-color: white;
+  z-index: 20;
+  font-family: bahnschrift;
+  margin: 0;
+  width: 20%;
+  height: 100%;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    top: 0px;
+  }
+
+  ul {
+    text-align: right;
+    padding: 0;
+
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      padding: 0;
+      font-size: 0.5em;
+      margin: 0 auto;
+      justify-content: space-around;
+    }
+  }
+
+  &-button {
+    font-size: 2em;
+    display: block;
+    padding: .3em 0.5em;
+    margin: 0.5em;
+    color: rgb(112, 112, 112);
+
+    &:hover {
+      color: $main-color;
+      cursor: pointer;
+    }
+  }
+
+  &-active {
+    color: $main-color;
+    border-right: solid $main-color 3px;
+
+    @media only screen and (max-width: 768px) {
+      border-right: none;
+    }
+  }
+}
+
+li {
+  list-style: none;
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em 0 1em;
+  width: 60%;
+  border-top: solid rgb(200, 200, 200) 4px;
+  border-bottom: solid rgb(200, 200, 200) 4px;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+}
+
+.content-section {
+  width: 60%;
+  color: rgb(80, 80, 80);
+  margin: 7em auto 5em;
+  font-size: 1.1em;
+
+  @media only screen and (max-width: 768px) {
+    margin: 5em auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+h2 {
+  font-family: bahnschrift;
+  color: $main-color;
+  border-left: solid rgb(200, 200, 200) 4px;
+  padding: 10px;
+}

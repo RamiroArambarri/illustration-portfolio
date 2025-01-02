@@ -1,0 +1,13 @@
+.contact-me {
+    margin: 7em auto 5em;
+
+    @media only screen and (max-width: 768px) {
+        margin: 7em auto 5em;
+    }
+}
+
+.contact-text {
+    @media only screen and (max-width: 768px) {
+        padding: 1em;
+    }
+}
