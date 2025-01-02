@@ -1,15 +1,15 @@
 export const galleryData = [
     [
         {
-            src: 'illustration-portfolio/images/digital/ultima_cancion.png',
+            src: '/illustration-portfolio/images/digital/ultima_cancion.png',
             thumnailSize: '100%'
         },
         {
-            src: 'illustration-portfolio/images/digital/zorro.png',
+            src: '/illustration-portfolio/images/digital/zorro.png',
             thumnailSize: '100%'
         },
         {
-            src: 'illustration-portfolio/images/digital/trigo.png',
+            src: '/illustration-portfolio/images/digital/trigo.png',
             thumnailSize: '150%'
         },
         {
