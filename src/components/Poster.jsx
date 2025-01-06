@@ -34,7 +34,7 @@ const Poster = ({ index, setShowPoster, gallery }) => {
     return (
       <>
         <div className={posterStyles['poster-background']} onClick={() => { setShowPoster(-1) }}>
-          <div className={posterStyles['poster-container']} onClick={() => { setShowPoster(-1) }}>
+          <div className={posterStyles['poster-container']}>
             <img className={`${posterStyles.close} ${posterStyles['poster-button-hover']}`} src={xImage} onClick={() => { setShowPoster(-1) }} role="button" />
             <img className={posterStyles['poster']} src={galleryData[gallery][index].src} onClick={ev => ev.stopPropagation()} />
             <div className={posterStyles['bottom-block']}>
