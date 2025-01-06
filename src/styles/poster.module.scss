@@ -1,5 +1,5 @@
 .poster-container {
-    height: 120dvh;
+    height: 100vh;
     width: 100vw;
     background-color: rgba(76, 76, 76, 90%);
     position: fixed;
@@ -11,10 +11,24 @@
     box-sizing: border-box;
 
     @media only screen and (max-width: 768px) {
+        position: absolute;
+        bottom: 0;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
+        height: 100svh;
+        width: 100vw;
     }
+}
+
+.poster-background {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(76, 76, 76, 90%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
 }
 
 .poster {
