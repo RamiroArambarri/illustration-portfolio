@@ -3,7 +3,7 @@
     width: 100vw;
     background-color: rgba(76, 76, 76, 90%);
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     z-index: 30;
     display: flex;
@@ -12,7 +12,7 @@
 
     @media only screen and (max-width: 768px) {
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: space space-between;
         align-items: center;
     }
 }
