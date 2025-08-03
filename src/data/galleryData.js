@@ -51,6 +51,9 @@ export const galleryData = [
     ],
     [
         {
+            src: '/illustration-portfolio/images/pixel-art/cereza.png',
+            thumnailSize: '190%'
+        },{
             src: '/illustration-portfolio/images/pixel-art/halloween.png',
             thumnailSize: '100%'
         },
